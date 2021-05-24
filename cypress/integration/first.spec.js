@@ -7,7 +7,7 @@ beforeEach('setup success response with stub', ()=> {
         cy.intercept('https://next.privat24.ua/api/p24/pub/confirm/check',
          {fixture: 'cypress/fixtures/confirmResponce/success.json'})
 })
-
+//com
 it('Replenishment of Ukraine mobile phone number', ()=> {
     cy.visit('https://next.privat24.ua/mobile?lang=en');
     mobileReplenishment.typePhoneNumber('686979712');
